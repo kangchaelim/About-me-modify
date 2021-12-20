@@ -118,10 +118,10 @@ window.addEventListener('scroll', ()=> {
 });
 
 // number 색상 바꾸기
-const gray = document.querySelectorAll('.gray');
-console.log(gray);
+// const gray = document.querySelectorAll('.gray');
+// console.log(gray);
 
-gray[0].style.fill = 'gray';
+// gray[0].style.fill = 'gray';
 
 // for(let i = 0; i<gray.length;i++){
 //     gray[i].style.color = 'gray';
