@@ -70,12 +70,12 @@ section {
 /* img */
 .img {
     width: 30vw;
-    height: 33vh;
+    height: 33.8vh;
     /* background-color: rgb(160, 160, 160); */
     bottom: 10vh;
     left: 5vw;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.07), 0 6px 22px 0 rgba(0, 0, 0, 0.07);
-
+    overflow: hidden;
 }
 
 .img img {
@@ -142,6 +142,23 @@ section {
     transform: translate(-50%,-50%);
 }
 
+.boxTwo #contents img {
+    width: 100%;
+}
+
+.boxTwo #contents .icon{
+    width: 140%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.boxTwo #contents .app {
+    width: 140%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 
 /* four grid */
 .boxTwo .content {
@@ -149,6 +166,7 @@ section {
     height: 20vh;
     background-color: rgb(160, 160, 160);
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.07), 0 6px 22px 0 rgba(0, 0, 0, 0.07);
+    overflow: hidden;
 }
 
 .content:nth-child(1) {
