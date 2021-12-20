@@ -64,8 +64,8 @@ setInterval(()=>{
 
 
 setInterval(()=>{
-    typo[2].classList.replace('op-0', 'op-1');
-    typo[3].classList.replace('op-0', 'op-1');
+    typo[2].classList.replace('opa-0', 'opa-1');
+    typo[3].classList.replace('opa-0', 'opa-1');
 },2700);
 
 setInterval(()=>{
@@ -117,8 +117,7 @@ window.addEventListener('scroll', ()=> {
     }
 });
 
-// number 색상 바꾸기
-// 
+// number 색상 바꾸기 
 // for(let i = 0; i<gray.length;i++){
 //     gray[i].style.color = 'gray';
 // }
