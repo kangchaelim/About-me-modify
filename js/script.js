@@ -118,11 +118,25 @@ window.addEventListener('scroll', ()=> {
 });
 
 // number 색상 바꾸기
-// const gray = document.querySelectorAll('.gray');
-// console.log(gray);
-
-// gray[0].style.fill = 'gray';
-
+// 
 // for(let i = 0; i<gray.length;i++){
 //     gray[i].style.color = 'gray';
 // }
+
+// works img hover
+const content = document.querySelectorAll('.content');
+console.log(content);
+const works = document.querySelectorAll('.works img');
+console.log(works);
+
+for(let k = 0; k<works.length ; k++){
+    content[k].addEventListener('mouseenter', function(){
+      works[k].classList.replace('opa-0', 'opa-1');
+    });
+  }
+
+  for(let k = 0; k<works.length ; k++){
+    content[k].addEventListener('mouseleave', function(){
+      works[k].classList.replace('opa-1', 'opa-0');
+    });
+  }  

@@ -15,8 +15,8 @@ body {
 .dis-flex {display: flex;}
 .hidden{display: none;}
 .block{display: block;}
-.op-0 {opacity: 0;}
-.op-1 {opacity: 1;}
+.opa-0 {opacity: 0;}
+.opa-1 {opacity: 1;}
 
 /* layout */
 #container {
@@ -186,7 +186,31 @@ section {
 
 .content:nth-child(4) {
     grid-column: 2;
-  grid-row: 2;
+    grid-row: 2;
 }
 
+/* works 확대*/
+.works img {
+    transition: 0.5s;
+}
 
+.works img:nth-child(1) {
+    width: 80%;
+    left: -25vw;
+    top: -8vh;
+}
+.works img:nth-child(2) {
+    width: 20%;
+    left: -5vw;
+    top: -5vh;
+}
+.works img:nth-child(3) {
+    width: 60%;
+    left: 35vw;
+    top: -10vh;
+}
+.works img:nth-child(4) {
+    width: 90%;
+    left: 32vw;
+    top: 20vh;
+}
